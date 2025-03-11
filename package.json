@@ -1,0 +1,22 @@
+{
+  "name": "playwright-cookie-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2"
+  },
+  "scripts": {
+    "server": "node ./server.js",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui"
+  }
+}
